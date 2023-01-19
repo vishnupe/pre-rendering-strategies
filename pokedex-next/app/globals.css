@@ -1,0 +1,36 @@
+:root {
+  --font-body: -apple-system, "Segoe UI", Helvetica Neue, Helvetica, Roboto,
+    Arial, sans-serif, system-ui, "Apple Color Emoji", "Segoe UI Emoji";
+  --font-display: baloo, var(--font-body);
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.pokemon-list {
+  width: 200px;
+  border: solid black 1px;
+  margin: 8px;
+  padding: 8px;
+  max-height: 100%;
+  overflow-y: auto;
+}
+.pokemon-preview {
+  flex-grow: 1;
+  border: solid black 1px;
+  margin: 8px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+main {
+  height: 100vh;
+  max-height: 100vh;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
